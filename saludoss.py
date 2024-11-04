@@ -40,6 +40,7 @@ def encuentra_idioma(opcion):
             return False
     except UnboundLocalError as error:
         print(error)
+
 #Definir funcion para ver lista de idiomas
 def mostrar_idiomas():
     for item in LENGUAJES:
