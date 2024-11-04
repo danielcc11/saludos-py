@@ -59,7 +59,7 @@ def quitar_idioma():
     for i, item in enumerate(LENGUAJES):  
         if item[0] == idioma_a_quitar:  
             LENGUAJES.pop(i)  # Quita el idioma de la lista  
-            del SALUDOS[idioma_a_quitar]  # Quita los saludos asociados  
+            del SALUDOS[idioma_a_quitar]  # Quita los saludos   
             print(f'Idioma "{item[1]}" ha sido eliminado.')  
             return  
     print('Idioma no encontrado.')  
